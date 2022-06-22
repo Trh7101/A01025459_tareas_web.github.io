@@ -1,0 +1,88 @@
+*{
+    border-width: 2px;
+    border-color: transparent;        
+}
+
+#border {
+    border-left-width: 5px;
+    border-left-style: double;
+    border-left-color: greenyellow;
+
+    border-right-width: 5px;
+    border-right-style: dotted;
+    border-right-color: orangered;
+
+    border-top-width: 5px;
+    border-top-style: groove;
+    border-top-color: orchid;
+
+    border-bottom-width: 5px;
+    border-bottom-style: dashed;
+    border-bottom-color: royalblue;
+}
+
+#border_radius {
+    border: 2px solid coral;
+    border-radius: 30px;
+}
+
+#background {
+    color:white;
+    background-image: url(/background.jpg);
+}
+
+#color {
+    color:cornflowerblue;
+}
+
+#fnt {
+    font-size: large;
+    font-variant: small-caps;    
+}
+
+#fntfamily {
+    font-family: 'Lucida Sans';
+}
+
+#font {
+    font-style: oblique;
+    font-weight: bolder;
+}
+
+#tamanos {
+    width: 100px;
+    height: 100px;
+}
+
+#estilo {
+    list-style:georgian;
+}
+
+#margen {
+    margin: 25px;
+}
+
+#padd {
+    padding: 25px;
+}
+
+#flow {
+    width: 100px;
+    height: 100px;
+    overflow: scroll;
+}
+
+#display {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#pos {
+    position: sticky;
+    right: 90px;
+}
+
+img {
+    filter: grayscale(1) blur(30px);
+}

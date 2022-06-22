@@ -1,0 +1,38 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-template-rows: repeat(5, 1fr);
+    height: 100vh;
+  }
+  .one {
+    grid-column: 2;
+    grid-row: 4/6;
+    border: solid black;
+    background-color: purple;
+  }
+  .two {
+    grid-column: 3;
+    grid-row: 4/6;
+    border: solid black;
+    background-color: palevioletred;
+  }
+  .three {
+    grid-column: 1/4;
+    grid-row: 1;
+    border: solid black;
+    background-color: gold;
+  }
+  .four {
+    grid-column: 1;
+    grid-row: 2/6;
+    border: solid black;
+    background-color: lawngreen;
+  }
+  .five {
+    grid-column: 2/4;
+    grid-row: 2/4;
+    border: solid black;
+    background-color: aqua;
+  }
+ 

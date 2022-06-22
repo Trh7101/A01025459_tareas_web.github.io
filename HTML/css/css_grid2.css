@@ -1,0 +1,32 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    grid-template-rows: repeat(2, 1fr);
+    height: 100vh;
+  }
+  .one {
+    grid-column: 1/3 ;
+    grid-row: 1;
+    border: solid black;
+    background-color: purple;
+  }
+  .two {
+    grid-column: 3;
+    grid-row: 1/3;
+    border: solid black;
+    background-color: aqua;
+  }
+
+  .four {
+    grid-column: 1;
+    grid-row: 2;
+    border: solid black;
+    background-color: green;
+  }
+  .five {
+    grid-column: 2;
+    grid-row: 2;
+    border: solid black;
+    background-color: palevioletred;
+  }
